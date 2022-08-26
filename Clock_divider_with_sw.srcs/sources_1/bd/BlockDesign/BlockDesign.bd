@@ -1,0 +1,400 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x52AC522946E72680",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../Clock_divider.gen/sources_1/bd/BlockDesign",
+      "name": "BlockDesign",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Clock_divider_0": "",
+      "Clock_divider_1": "",
+      "Clock_divider_2": "",
+      "Clock_divider_3": "",
+      "AndModule_0": "",
+      "AndModule_1": "",
+      "AndModule_2": "",
+      "AndModule_3": ""
+    },
+    "ports": {
+      "CLK_IN": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BlockDesign_CLK_IN",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "btn0": {
+        "direction": "I"
+      },
+      "btn1": {
+        "direction": "I"
+      },
+      "btn2": {
+        "direction": "I"
+      },
+      "btn3": {
+        "direction": "I"
+      },
+      "LD0": {
+        "direction": "O"
+      },
+      "LD1": {
+        "direction": "O"
+      },
+      "LD2": {
+        "direction": "O"
+      },
+      "LD3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Clock_divider_0": {
+        "vlnv": "xilinx.com:module_ref:Clock_divider:1.0",
+        "xci_name": "BlockDesign_Clock_divider_0_0",
+        "xci_path": "ip/BlockDesign_Clock_divider_0_0/BlockDesign_Clock_divider_0_0.xci",
+        "inst_hier_path": "Clock_divider_0",
+        "parameters": {
+          "DIVISOR": {
+            "value": "0x1dcd650"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_IN": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BlockDesign_CLK_IN",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "CLK_OUT": {
+            "direction": "O"
+          }
+        }
+      },
+      "Clock_divider_1": {
+        "vlnv": "xilinx.com:module_ref:Clock_divider:1.0",
+        "xci_name": "BlockDesign_Clock_divider_1_0",
+        "xci_path": "ip/BlockDesign_Clock_divider_1_0/BlockDesign_Clock_divider_1_0.xci",
+        "inst_hier_path": "Clock_divider_1",
+        "parameters": {
+          "DIVISOR": {
+            "value": "0x3b9aca0"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_IN": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BlockDesign_CLK_IN",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "CLK_OUT": {
+            "direction": "O"
+          }
+        }
+      },
+      "Clock_divider_2": {
+        "vlnv": "xilinx.com:module_ref:Clock_divider:1.0",
+        "xci_name": "BlockDesign_Clock_divider_2_0",
+        "xci_path": "ip/BlockDesign_Clock_divider_2_0/BlockDesign_Clock_divider_2_0.xci",
+        "inst_hier_path": "Clock_divider_2",
+        "parameters": {
+          "DIVISOR": {
+            "value": "0x7735940"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_IN": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BlockDesign_CLK_IN",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "CLK_OUT": {
+            "direction": "O"
+          }
+        }
+      },
+      "Clock_divider_3": {
+        "vlnv": "xilinx.com:module_ref:Clock_divider:1.0",
+        "xci_name": "BlockDesign_Clock_divider_3_0",
+        "xci_path": "ip/BlockDesign_Clock_divider_3_0/BlockDesign_Clock_divider_3_0.xci",
+        "inst_hier_path": "Clock_divider_3",
+        "parameters": {
+          "DIVISOR": {
+            "value": "0x0ee6b28"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_IN": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BlockDesign_CLK_IN",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "CLK_OUT": {
+            "direction": "O"
+          }
+        }
+      },
+      "AndModule_0": {
+        "vlnv": "xilinx.com:module_ref:AndModule:1.0",
+        "xci_name": "BlockDesign_AndModule_0_0",
+        "xci_path": "ip/BlockDesign_AndModule_0_0/BlockDesign_AndModule_0_0.xci",
+        "inst_hier_path": "AndModule_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AndModule",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      },
+      "AndModule_1": {
+        "vlnv": "xilinx.com:module_ref:AndModule:1.0",
+        "xci_name": "BlockDesign_AndModule_1_0",
+        "xci_path": "ip/BlockDesign_AndModule_1_0/BlockDesign_AndModule_1_0.xci",
+        "inst_hier_path": "AndModule_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AndModule",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      },
+      "AndModule_2": {
+        "vlnv": "xilinx.com:module_ref:AndModule:1.0",
+        "xci_name": "BlockDesign_AndModule_2_0",
+        "xci_path": "ip/BlockDesign_AndModule_2_0/BlockDesign_AndModule_2_0.xci",
+        "inst_hier_path": "AndModule_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AndModule",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      },
+      "AndModule_3": {
+        "vlnv": "xilinx.com:module_ref:AndModule:1.0",
+        "xci_name": "BlockDesign_AndModule_3_0",
+        "xci_path": "ip/BlockDesign_AndModule_3_0/BlockDesign_AndModule_3_0.xci",
+        "inst_hier_path": "AndModule_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AndModule",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "AndModule_0_y": {
+        "ports": [
+          "AndModule_0/y",
+          "LD3"
+        ]
+      },
+      "AndModule_1_y": {
+        "ports": [
+          "AndModule_1/y",
+          "LD0"
+        ]
+      },
+      "AndModule_2_y": {
+        "ports": [
+          "AndModule_2/y",
+          "LD1"
+        ]
+      },
+      "AndModule_3_y": {
+        "ports": [
+          "AndModule_3/y",
+          "LD2"
+        ]
+      },
+      "CLK_IN_1": {
+        "ports": [
+          "CLK_IN",
+          "Clock_divider_3/CLK_IN",
+          "Clock_divider_2/CLK_IN",
+          "Clock_divider_1/CLK_IN",
+          "Clock_divider_0/CLK_IN"
+        ]
+      },
+      "Clock_divider_0_CLK_OUT": {
+        "ports": [
+          "Clock_divider_0/CLK_OUT",
+          "AndModule_3/a"
+        ]
+      },
+      "Clock_divider_1_CLK_OUT": {
+        "ports": [
+          "Clock_divider_1/CLK_OUT",
+          "AndModule_2/a"
+        ]
+      },
+      "Clock_divider_2_CLK_OUT": {
+        "ports": [
+          "Clock_divider_2/CLK_OUT",
+          "AndModule_1/a"
+        ]
+      },
+      "Clock_divider_3_CLK_OUT": {
+        "ports": [
+          "Clock_divider_3/CLK_OUT",
+          "AndModule_0/a"
+        ]
+      },
+      "btn0_1": {
+        "ports": [
+          "btn0",
+          "AndModule_1/b"
+        ]
+      },
+      "btn1_1": {
+        "ports": [
+          "btn1",
+          "AndModule_2/b"
+        ]
+      },
+      "btn2_1": {
+        "ports": [
+          "btn2",
+          "AndModule_3/b"
+        ]
+      },
+      "btn3_1": {
+        "ports": [
+          "btn3",
+          "AndModule_0/b"
+        ]
+      }
+    }
+  }
+}

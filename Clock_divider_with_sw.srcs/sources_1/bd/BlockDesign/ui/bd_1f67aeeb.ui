@@ -1,0 +1,42 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-149,-739",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_CLK_IN -pg 1 -lvl 0 -x 0 -y -570 -defaultsOSRD
+preplace port port-id_btn0 -pg 1 -lvl 3 -x 840 -y -710 -defaultsOSRD -right
+preplace port port-id_btn1 -pg 1 -lvl 3 -x 840 -y -690 -defaultsOSRD -right
+preplace port port-id_btn2 -pg 1 -lvl 3 -x 840 -y -670 -defaultsOSRD -right
+preplace port port-id_btn3 -pg 1 -lvl 3 -x 840 -y -650 -defaultsOSRD -right
+preplace port port-id_LD0 -pg 1 -lvl 3 -x 840 -y -580 -defaultsOSRD
+preplace port port-id_LD1 -pg 1 -lvl 3 -x 840 -y -560 -defaultsOSRD
+preplace port port-id_LD2 -pg 1 -lvl 3 -x 840 -y -540 -defaultsOSRD
+preplace port port-id_LD3 -pg 1 -lvl 3 -x 840 -y -510 -defaultsOSRD
+preplace inst Clock_divider_0 -pg 1 -lvl 1 -x 350 -y -380 -defaultsOSRD
+preplace inst Clock_divider_1 -pg 1 -lvl 1 -x 350 -y -480 -defaultsOSRD
+preplace inst Clock_divider_2 -pg 1 -lvl 1 -x 350 -y -580 -defaultsOSRD
+preplace inst Clock_divider_3 -pg 1 -lvl 1 -x 350 -y -270 -defaultsOSRD
+preplace inst AndModule_0 -pg 1 -lvl 2 -x 650 -y -190 -defaultsOSRD
+preplace inst AndModule_1 -pg 1 -lvl 2 -x 650 -y -560 -defaultsOSRD
+preplace inst AndModule_2 -pg 1 -lvl 2 -x 650 -y -430 -defaultsOSRD
+preplace inst AndModule_3 -pg 1 -lvl 2 -x 650 -y -310 -defaultsOSRD
+preplace netloc AndModule_0_y 1 2 1 770 -510n
+preplace netloc AndModule_1_y 1 2 1 740 -580n
+preplace netloc AndModule_2_y 1 2 1 750 -560n
+preplace netloc AndModule_3_y 1 2 1 760 -540n
+preplace netloc CLK_IN_1 1 0 1 20 -580n
+preplace netloc Clock_divider_0_CLK_OUT 1 1 1 470 -380n
+preplace netloc Clock_divider_1_CLK_OUT 1 1 1 460 -480n
+preplace netloc Clock_divider_2_CLK_OUT 1 1 1 460 -580n
+preplace netloc Clock_divider_3_CLK_OUT 1 1 1 480 -270n
+preplace netloc btn0_1 1 1 2 470 -710 N
+preplace netloc btn1_1 1 1 2 480 -690 N
+preplace netloc btn2_1 1 1 2 490 -670 NJ
+preplace netloc btn3_1 1 1 2 500 -650 N
+levelinfo -pg 1 0 350 650 840
+pagesize -pg 1 -db -bbox -sgen -100 -960 930 280
+"
+}
+0
