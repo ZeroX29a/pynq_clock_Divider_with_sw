@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="60" Path="/home/rootuser/Desktop/Vivado/Clock_divider_with_SW/Clock_divider_with_sw.xpr">
+<Project Version="7" Minor="60" Path="./Clock_divider_with_SW/Clock_divider_with_sw.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="4a055f7c875f4b2bb08307e346175b96"/>
