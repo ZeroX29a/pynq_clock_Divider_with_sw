@@ -1,5 +1,5 @@
 # Clock_divider_with_SW
-## This is a sample project
+## This is a simple project
 
 Clock divider ANDed with switch
 
